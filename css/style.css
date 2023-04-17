@@ -89,7 +89,6 @@ button {
   width: 100%;
   background-color: rgb(11, 17, 30);
   z-index: 100;
-
 }
 
 .nav {
@@ -711,7 +710,6 @@ button {
 .contact-container {
   display: grid;
   grid-template-columns:repeat(1);
-  /* column-gap: 2rem; */
   justify-content: center;
 }
 
@@ -824,22 +822,19 @@ button {
 }
 
 .contact-info {
-  grid-template-columns: 430px;
+  grid-template-columns: repeat(3,300px);
   gap: 1rem;
 }
 
 .contact-form {
   width: 430px;
+  margin: 0 auto;
 }
 
 .contact-form-area {
   height: 18rem;
 }
 
-.contact-container {
-  grid-template-columns: repeat(1, 430px);
-  column-gap: 6rem;
-}
 
 .footer-social-link {
   font-size: 1.25rem;
